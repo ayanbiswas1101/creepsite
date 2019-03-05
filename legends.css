@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+ 
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+    color: whitesmoke;
+    transition: 0.5s;
+}
+
+a:hover {
+color: rgb(87, 2, 2);
+}
+
+#sidebar {
+    position: fixed;
+    width: 180px;
+    height: 500px;
+    background-color: rgb(8, 55, 66);
+    float: left;
+    display: none;
+}
+
+
+
+#sidebar li {
+    
+    padding: 8px;
+    padding-bottom: 20px;
+    font-size: 28px;
+    color: whitesmoke;
+    font-family: 'Permanent Marker', cursive;
+    position: relative;
+    display: block;
+    transition: 0.5s;
+}
+
+#sidebar li:hover {
+    color: rgb(87, 2, 2);
+    cursor: pointer;
+    font-size: 30px;
+    transform: rotateZ(360deg);
+}
+
+#logo_bar{
+    position: fixed;
+    font-size: 25px;
+    margin-left: 2px;
+    color: rgb(230, 226, 243);
+    z-index: 1;
+
+}
+
+#logo_bar:hover {
+    cursor: pointer;
+    
+}
+
+#story-page {
+    width: 900px;
+    height: 2400px;
+    position: relative;
+    left: 20%;
+    right: 20%;
+    color: rgb(183, 219, 207);
+    background-color: rgb(17, 75, 75);
+}
+
+#title {
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    font-size: 40px;
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(16, 187, 16);
+    background-color: rgba(144, 130, 194, 0.158);
+
+}
+
+.head {
+    font-size: 45px;
+    text-align: center;
+    color: rgb(95, 6, 6);
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.para {
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px;
+}
